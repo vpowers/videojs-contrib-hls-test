@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico">
+    <title>sample html</title>
+
+    <link href="node_modules/video.js/dist/video-js.css" rel="stylesheet">
+    <script src="dist/hls-dep-test.js"></script>
+
+</head>
+<body>
+
+<video id="my-video" width=600 height=300 class="video-js vjs-default-skin" controls></video>
+
+</body>
+
+<script>
+    createPlayer.default(document.getElementById('my-video'));
+</script>
+</html>
